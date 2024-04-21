@@ -42,7 +42,7 @@ class CameraView extends StatelessWidget {
                               )
                             : SizedBox(
                                 height: size.height * 0.5,
-                                width: double.infinity,
+                                // width: double.infinity,
                                 child: CameraPreview(
                                   controller.cameraController,
                                 ),
